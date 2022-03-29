@@ -6,13 +6,4 @@
  
     // �quivalent � la fonction printf() du langage C
     printf('Hello %s', 'World')
-
 ?>
-
-
-
-
-
-
-
-
