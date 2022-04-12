@@ -1,21 +1,20 @@
 <?php
-$nom='Mickaël';  // string
-$age=17;  // integer
-$gars=true;  // boolean
-$taille=1.75;  // float
+$nom = 'Mickaël';  // string
+$age = 17;  // integer
+$gars = true;  // boolean
+$taille = 1.75;  // float
 ?>
 
 <?php
-echo'<p>Bonjour à tous.<br/>
+echo '<p>Bonjour à tous.<br/>
 Mon vrai nom n\'est pas Toto.<br/>
-Mon vrai nom est '.$nom.'<br/>
-J\'ai '.$age.' ans et je mesure '.$taille.'m.<br/>
+Mon vrai nom est ' . $nom . '<br/>
+J\'ai ' . $age . ' ans et je mesure ' . $taille . 'm.<br/>
 Et comme mon nom l\'indique, je suis ';
-if ($gars==true){
-echo 'un garçon.</p>';
-}
-else{
-echo 'une fille. </p>';
+if ($gars == true) {
+    echo 'un garçon.</p>';
+} else {
+    echo 'une fille. </p>';
 }
 
 $user = 'Yogui';

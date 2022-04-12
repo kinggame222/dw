@@ -70,5 +70,3 @@ function test2() {
 
 $var = "Exemple de contenu";
 test2();
-
-?>

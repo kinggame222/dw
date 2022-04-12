@@ -3,16 +3,16 @@
 /* ========================================================
 le for 
 Voici comment cela se passe dans le 1'exemple :
-	1 $i est initialisé à "0" ;
-	2 PHP vérifie si l'instruction "$i<10" est TRUE ;
-	3 Si c'est TRUE on continue, sinon la boucle est terminée ;
-	4 PHP exécute le corps de la boucle ;
-	5 PHP exécute l'instruction d'incrémentation : "++$i" ;
-	6 Retour au 2° point.
+	1 $i est initialisï¿½ ï¿½ "0" ;
+	2 PHP vï¿½rifie si l'instruction "$i<10" est TRUE ;
+	3 Si c'est TRUE on continue, sinon la boucle est terminï¿½e ;
+	4 PHP exï¿½cute le corps de la boucle ;
+	5 PHP exï¿½cute l'instruction d'incrï¿½mentation : "++$i" ;
+	6 Retour au 2ï¿½ point.
 ===========================================================*/
 echo '<H2> for </H2>';
 
-//afficher tous les chiffres de 0 à 9
+//afficher tous les chiffres de 0 ï¿½ 9
 for($i=0; $i<10; ++$i)
 {
 echo $i;
@@ -27,10 +27,11 @@ for($lettre='a'; $lettre<'z'; $lettre++)
 /* =========================
 Attention au boucle infini
 ============================*/
+/*
 for($i=0; $i!= -1; ++$i)
 {
 	echo $i, '<BR>';
 }
-
+*/
 
 ?>

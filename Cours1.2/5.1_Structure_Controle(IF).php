@@ -14,7 +14,7 @@ if(2*4 > 5)
 }
 else
 {
-	if 3 = 7
+	if (3 == 7)
 		echo 'Heille l\'imbécile';
 	else
 	{
