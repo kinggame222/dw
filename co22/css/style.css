@@ -1,0 +1,33 @@
+hr {
+	height: 1px;
+	color:black;
+	}
+	
+		body{
+		background-image : ("images/logo.png");
+		}
+		.menu {
+			background-color: #1d13ee;
+			color : white;
+			
+		}
+		a:hover{
+		color : white;
+		font-weight : bold;
+		}
+		
+		.blanc{
+		color : white;
+		}
+		.fondBlanc
+		{
+		background-color: white;
+		margin:0;
+		}
+	
+		.encadre{
+		margin:0;
+		border-style:solid;
+		border : double black;
+		background-color: white;
+		}
